@@ -28,9 +28,9 @@
 - [iso-stopwords-iso.json](https://github.com/stopwords-iso/stopwords-iso)
 - [igorbrigadir](https://github.com/igorbrigadir/stopwords)
 
-  | file                                                         | size | source                                                                                                                                                      | description                                                                                                                                                                                                                                                                                                                                                                                                       |
-  | ------------------------------------------------------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | [_None_](stopwords-misc/igorbrigadir/en/_none.txt)                                       | 0    | [⇱](stopwords-misc/igorbrigadir/en/_none.txt)                                                                                                                                           | No stop word removal.                                                                                                                                                                                                                                                                                                                                                                                             |
+  | file                                                                                     | size | source                                                                                                                                                      | description                                                                                                                                                                                                                                                                                                                                                                                                       |
+  | ---------------------------------------------------------------------------------------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | [_None_](stopwords-misc/igorbrigadir/en/_none.txt)                                       | 0    | [⇱](stopwords-misc/igorbrigadir/en/_none.txt)                                                                                                               | No stop word removal.                                                                                                                                                                                                                                                                                                                                                                                             |
   | [Sphinx](stopwords-misc/igorbrigadir/en/sphinx.txt)                                      | 0    | [⇱](http://sphinxsearch.com/docs/current.html#conf-stopwords)                                                                                               | Sphinx is an open source search server. Top google search for sphinx stopwords also leads to two manually compiled lists <http://astellar.com/2011/12/stopwords-for-sphinx-search/> which are based on the blog author's posts.                                                                                                                                                                                   |
   | [EBSCOhost](stopwords-misc/igorbrigadir/en/ebscohost_medline_cinahl.txt)                 | 24   | [⇱](https://help.ebsco.com/interfaces/CINAHL_MEDLINE_Databases/CINAHL_and_MEDLINE_FAQs/stop_words_in_EBSCOhost_medical_databases)                           | The stop words used in EBSCOhost medical databases MEDLINE and CINAHL                                                                                                                                                                                                                                                                                                                                             |
   | [CoreNLP (Hardcoded)](stopwords-misc/igorbrigadir/en/corenlp_hardcoded.txt)              | 28   | [⇱](https://github.com/stanfordnlp/CoreNLP/blob/master/src/edu/stanford/nlp/coref/data/WordLists.java)                                                      | Hardcoded in src/edu/stanford/nlp/coref/data/WordLists.java and the same in src/edu/stanford/nlp/dcoref/Dictionaries.java                                                                                                                                                                                                                                                                                         |
@@ -119,7 +119,7 @@
   - 成语词库/THUOCL_chengyu.txt
   - 地名词库/THUOCL_diming.txt
   - 食物词库/THUOCL_food.txt
-  - IT词库/THUOCL_it.txt
+  - IT 词库/THUOCL_it.txt
   - 法律词库/THUOCL_law.txt
   - 历史名人词库/THUOCL_lishimingren.txt
   - 医学词库/THUOCL_medical.txt
@@ -136,3 +136,21 @@
 ## 审查词库（敏感词/违禁词） `censorship`
 
 见 [NOTE](./censorship/NOTE.md)
+
+## 其他
+
+### 弱智吧（百度贴吧）
+
+- 来源
+  - <https://tieba.baidu.com/f?kw=弱智/>
+  - <https://github.com/Leymore/ruozhiba>
+  - <https://huggingface.co/datasets/XiaoShuiAt/ruozhiba/>
+  - [腾讯文档 - 弱智吧集锦](https://docs.qq.com/sheet/DUlZ6aURhamdwb1RO)
+- 数据说明
+
+| 来源                         | 文件                                                                       | 类型 | 数据量 |
+| ---------------------------- | -------------------------------------------------------------------------- | ---- | ------ |
+| 18~21 年年度佳帖             | [ruozhiba-post-annual.json](./misc/弱智吧/ruozhiba-post-annual.json)       | 帖子 | 1.3k   |
+| 吧主推荐 (截止到 2023.04.30) | [ruozhiba-title-good.json](./misc/弱智吧/ruozhiba-title-good.json)         | 标题 | 2.6k   |
+| 一般帖子 (截止到 2023.04.30  | [ruozhiba-title-norm.json](./misc/弱智吧/ruozhiba-title-norm.json)         | 标题 | 81.7k  |
+| 部分疑问句                   | 腾讯文档弱智吧集锦<https://docs.qq.com/sheet/DUlZ6aURhamdwb1RO?tab=BB08J2> | 标题 | 2.4k   |
