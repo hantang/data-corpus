@@ -21,15 +21,20 @@
   - [网易前端过滤敏感词库](https://chinadigitaltimes.net/space/网易前端过滤敏感词库)
 
 - **github**来源
+
   - [cjh0613-腾讯的离线敏感词库](https://github.com/cjh0613/tencent-sensitive-words)
+    - [cjh0613-轻量超严格敏感词库](https://github.com/cjh0613/strict-sensitive-word)
   - [fwwdn](https://github.com/fwwdn/sensitive-stop-words)
     - [selfcs](https://github.com/selfcs/stop-and-sensitive-words)
+    - [jkiss](https://github.com/jkiss/sensitive-words)
   - [go0p](https://github.com/Go0p/emmmm/tree/master/data/Sensitivewords)
   - [houbb](https://github.com/houbb/sensitive-word)
   - [nishiwen1214](https://github.com/nishiwen1214/NLP-Dictionary/tree/master/Sensitive%20words)
   - [qianzhengyang](https://github.com/qianzhengyang/AllDataPackages/)
   - [toolgood](https://github.com/toolgood/ToolGood.Words)
   - [yuanjie-ai](https://github.com/yuanjie-ai/ChineseSensitiveVocabulary/tree/master/chinese_sensitive_vocabulary/data)
+  - [pennyliang](https://github.com/pennyliang/ciku)
 
 - **hugging face**来源
+
   - [a686d380/simple-h](https://huggingface.co/datasets/a686d380/simple-h)
