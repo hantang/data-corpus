@@ -13,15 +13,17 @@
   | 百度停用词表                   | baidu_stopwords.txt |
   | 四川大学机器智能实验室停用词库 | scu_stopwords.txt   |
 
-- [eastmountyxz-stopwords.txt](https://github.com/eastmountyxz/NLP-Custom-Dictionary/blob/master/%E5%81%9C%E7%94%A8%E8%AF%8D%E8%A1%A8.txt)
+- [eastmountyxz-stopwords.txt](https://github.com/eastmountyxz/NLP-Custom-Dictionary/blob/master/停用词表.txt)
 - [fwwdn-stopword.txt](https://github.com/fwwdn/sensitive-stop-words)
 - [iso-stopwords-zh.txt](https://github.com/stopwords-iso/stopwords-zh/blob/master/stopwords-zh.txt)
 - [meme_stopwords.txt](https://github.com/Riroaki/Meme-Crawler/blob/master/MemeCrawler/stopwords/stopwords.txt)
 - [nishiwen1214](https://github.com/nishiwen1214/NLP-Dictionary/tree/master/stop_words)
 - [qianzhengyang-stopwords.txt](https://github.com/qianzhengyang/AllDataPackages/blob/master/FreeDownload/stop-words.txt)
 - [selfcs-stopwords.txt](https://github.com/selfcs/stop-and-sensitive-words)
+- [yuanjie-ai](https://github.com/yuanjie-ai/stopwords-zh/tree/master/stopwords/data) 重复的文件不保留，stopwords.zh.baidu稍微不同。
 
-## 更多停用词 `stopwords-misc`
+
+## 外语停用词 `stopwords-misc`
 
 - [6-stopwords-all.json](https://github.com/6/stopwords-json/master/stopwords-all.json)
 - [iso-stopwords-en.txt](https://github.com/stopwords-iso/stopwords-en/blob/master/stopwords-en.txt)
@@ -146,11 +148,12 @@
   - <https://github.com/Leymore/ruozhiba>
   - <https://huggingface.co/datasets/XiaoShuiAt/ruozhiba/>
   - [腾讯文档 - 弱智吧集锦](https://docs.qq.com/sheet/DUlZ6aURhamdwb1RO)
+
 - 数据说明
 
-| 来源                         | 文件                                                                       | 类型 | 数据量 |
-| ---------------------------- | -------------------------------------------------------------------------- | ---- | ------ |
-| 18~21 年年度佳帖             | [ruozhiba-post-annual.json](./misc/弱智吧/ruozhiba-post-annual.json)       | 帖子 | 1.3k   |
-| 吧主推荐 (截止到 2023.04.30) | [ruozhiba-title-good.json](./misc/弱智吧/ruozhiba-title-good.json)         | 标题 | 2.6k   |
-| 一般帖子 (截止到 2023.04.30  | [ruozhiba-title-norm.json](./misc/弱智吧/ruozhiba-title-norm.json)         | 标题 | 81.7k  |
-| 部分疑问句                   | 腾讯文档弱智吧集锦<https://docs.qq.com/sheet/DUlZ6aURhamdwb1RO?tab=BB08J2> | 标题 | 2.4k   |
+  | 来源                         | 文件                                                                       | 类型 | 数据量 |
+  | ---------------------------- | -------------------------------------------------------------------------- | ---- | ------ |
+  | 18~21 年年度佳帖             | [ruozhiba-post-annual.json](./misc/弱智吧/ruozhiba-post-annual.json)       | 帖子 | 1.3k   |
+  | 吧主推荐 (截止到 2023.04.30) | [ruozhiba-title-good.json](./misc/弱智吧/ruozhiba-title-good.json)         | 标题 | 2.6k   |
+  | 一般帖子 (截止到 2023.04.30  | [ruozhiba-title-norm.json](./misc/弱智吧/ruozhiba-title-norm.json)         | 标题 | 81.7k  |
+  | 部分疑问句                   | 腾讯文档弱智吧集锦<https://docs.qq.com/sheet/DUlZ6aURhamdwb1RO?tab=BB08J2> | 标题 | 2.4k   |
