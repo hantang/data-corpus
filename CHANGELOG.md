@@ -138,22 +138,3 @@
 ## 审查词库（敏感词/违禁词） `censorship`
 
 见 [NOTE](./censorship/NOTE.md)
-
-## 其他
-
-### 弱智吧（百度贴吧）
-
-- 来源
-  - <https://tieba.baidu.com/f?kw=弱智/>
-  - <https://github.com/Leymore/ruozhiba>
-  - <https://huggingface.co/datasets/XiaoShuiAt/ruozhiba/>
-  - [腾讯文档 - 弱智吧集锦](https://docs.qq.com/sheet/DUlZ6aURhamdwb1RO)
-
-- 数据说明
-
-  | 来源                         | 文件                                                                       | 类型 | 数据量 |
-  | ---------------------------- | -------------------------------------------------------------------------- | ---- | ------ |
-  | 18~21 年年度佳帖             | [ruozhiba-post-annual.json](./misc/弱智吧/ruozhiba-post-annual.json)       | 帖子 | 1.3k   |
-  | 吧主推荐 (截止到 2023.04.30) | [ruozhiba-title-good.json](./misc/弱智吧/ruozhiba-title-good.json)         | 标题 | 2.6k   |
-  | 一般帖子 (截止到 2023.04.30  | [ruozhiba-title-norm.json](./misc/弱智吧/ruozhiba-title-norm.json)         | 标题 | 81.7k  |
-  | 部分疑问句                   | 腾讯文档弱智吧集锦<https://docs.qq.com/sheet/DUlZ6aURhamdwb1RO?tab=BB08J2> | 标题 | 2.4k   |
